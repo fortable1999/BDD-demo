@@ -1,5 +1,8 @@
 Cucumber + Capybara + PhantomJS based BDD
 
+demo:
+https://github.com/fortable1999/BDD-demo
+
 Requirements:
     - Cucumber: BDD framework. (features, steps, ...)
     - rspce:    Basic web test features 
