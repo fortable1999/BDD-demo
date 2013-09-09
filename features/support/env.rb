@@ -1,3 +1,9 @@
+require 'simplecov'
+
+SimpleCov.start do
+    add_group 'APP', './'
+end
+
 require 'capybara'
 require 'capybara/cucumber'
 require 'capybara/poltergeist'

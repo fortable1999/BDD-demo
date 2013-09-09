@@ -9,3 +9,4 @@ gem 'capybara'
 gem 'poltergeist'       # Also, make sure PhantoJS is installed
 gem 'rspec-expectations'
 
+gem 'simplecov'
