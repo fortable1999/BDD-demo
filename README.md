@@ -11,23 +11,13 @@ Cucumber + Capybara + PhantomJS based BDD
 * phantomJS
 * poltergeist: phantomJS interface for cucumber
 
-# needed for cucumber + capybara
-./features/support/env.rb       => * capyara env config
-./features/story1.feature       => * story1 feature
+#### main charactors in this demo
+```bash
+./features/support/env.rb       # capyara env config
+./features/story1.feature       # story1 feature
 
-./Gemfile                       => Gems
-    ############################
-    # source 'https://rubygems.org'
-    #
-    # gem 'sinatra'
-    # gem 'haml'
-    # # Make sure these packages
-    # gem 'cucumber'
-    # gem 'capybara'
-    # gem 'poltergeist'       # Also, make sure PhantoJS is installed
-    # gem 'rspec-expectations'
-    ############################
-
+./Gemfile                       
 ./config.ru                     => basic web server config
 ./app.rb                        => a simple web app
 ./views                         => some templates
+```
